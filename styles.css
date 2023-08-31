@@ -1,0 +1,39 @@
+/*Structure */
+body {
+    background-color:azure;
+}
+
+/*Tables*/
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    background-color: yellowgreen;
+    border: 3px dotted red;
+}
+
+th {
+    background-color: azure;
+}
+
+/* Typography */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:magenta;
+}
+
+p {
+    color:lightblue;
+}
+
+h1 {
+    background-color: chocolate;
+    color:chartreuse;
+}
+
+h2 {
+    color:coral;
+}

@@ -1,39 +1,42 @@
-/*Structure */
 body {
-    background-color:azure;
+    font-family: Arial, sans-serif;
 }
 
-/*Tables*/
-
-table {
-    border-collapse: collapse;
-}
-
-td,
-th {
-    background-color: yellowgreen;
-    border: 3px dotted red;
-}
-
-th {
-    background-color: azure;
-}
-
-/* Typography */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color:magenta;
+    color: #000000;
+    background-color: #bababa;
 }
 
-p {
-    color:lightblue;
+.subheader {
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 20px;
 }
 
-h1 {
-    background-color: chocolate;
-    color:chartreuse;
+/* Removes underline and diff color */
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 17);
 }
 
-h2 {
-    color:coral;
+/* highlight link color */
+a:hover {
+    color: #ff000030;
+}
+
+header {
+    background-color: rgb(38, 0, 255);
+    color: rgb(255, 187, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.subheader h2 {
+    font-size: 24px;
+    margin: 0;
 }

@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the navigation */
+nav {
+    background-color: #650000;
+    color: #fff;
+}
+
+/* Style the nav */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main content layout using Flexbox */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.bigger {
+    flex: 2; /* Bigger column */
+}
+
+.nested-column {
+    flex: 1; /* Nested columns */
+}
+
+.placeholder {
+    flex: 1; /* Placeholder columns */
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+aside {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #650000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer span {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .bigger, .column {
+        flex: 1; /* Equal width for columns on small screens */
+    }
+}

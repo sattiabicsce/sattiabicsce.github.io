@@ -1,0 +1,71 @@
+body {
+    background-color: azure;
+}
+
+#main-header {
+    background-color: darkred;
+}
+
+#main-content {
+    background-color: rgb(0, 255, 26);
+}
+
+#main-footer {
+    background-color: darkslategray;
+}
+
+.padded-aread {
+    padding: 5px;
+    margin: auto;
+}
+
+.info {
+    border: 2px solid blueviolet;
+    background: red;
+}
+
+.info header {
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+
+/* Main Navigation*/
+
+#main-nav ul {
+    padding-left: 0px;
+}
+
+#main-nav-li {
+    list-style-type: none;
+    /*display: inline-block;*/
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-nav a:hover {
+    border-bottom: 1 px solid magenta;
+    font-size: 2em;
+}
+
+/* Typography */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Larger Resolutions*/
+@media only screen and (min-width: 600px) {
+    #main-nav li {
+        display: inline-block;
+    }
+    .columns {
+        display: flex;
+    }
+
+    .col1of2 {
+        flex: 1;
+    }
+}

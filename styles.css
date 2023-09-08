@@ -1,42 +1,69 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
-body {
-    color: #000000;
-    background-color: #bababa;
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
 }
 
 .subheader {
-    border: 2px solid #000000;
-    padding: 20px;
-    margin: 20px;
-}
-
-/* Removes underline and diff color */
-a {
-    text-decoration: none;
-    color: rgb(255, 0, 17);
-}
-
-/* highlight link color */
-a:hover {
-    color: #ff000030;
-}
-
-header {
-    background-color: rgb(38, 0, 255);
-    color: rgb(255, 187, 0);
+    background-color: #000;
+    color: #fff;
     text-align: center;
     padding: 10px;
 }
 
-header h1 {
-    font-size: 36px;
-    margin: 0;
+/* Main content layout using Flexbox */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align columns at the top */
+    margin: 20px;
 }
 
-.subheader h2 {
-    font-size: 24px;
-    margin: 0;
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 1; /* Equally sized columns */
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.column img {
+    display: block;
+    margin: 0 auto 10px; /* Center the image */
+}
+
+/* Footer styles */
+footer {
+    background-color: maroon;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer span {
+    margin-left: 10px;
+}
+
+/* Hyperlink styles */
+a:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; /* Stack columns on top of each other */
+        align-items: center;
+    }
+    
+    .subheader {
+        text-align: left;
+        padding: 10px 20px;
+    }
 }

@@ -1,27 +1,39 @@
+<!--Abi Satti CSCE 242-->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>index.html</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <title>CSCE 242</title>
 </head>
 <body>
     <header>
         <h1>CSCE 242: Website Applications</h1>
     </header>
-
-    <div class="subheader">
-        <h2>Abi Satti</h2>
-        <p>This class dives deeper into HTML and the process of creating a website that serves as a portfolio as the student complete more assignments and becomes more familiar with the language.</p>
-    </div>
-
-    <div class="subheader">
+    <section class="subheader">
         <h2>Assignments</h2>
-        <ol>
-            <li><a href="exercises/day1/index.html">Basic HTML</a></li>
-            <li><a href="assignments/assignment2/assign2.html">Basic CSS</a></li>
-            <li><a href="assignments/assignment3/index.html">Page Layout</a></li>
-        </ol>
-    </div>
+    </section>
+    <main>
+        <section class="content">
+            <div class="column">
+                <h3><a href="exercises/day1/index.html">Assignment 1: Basic HTML</a></h3>
+                <img src="exercises/day1/images/ss.png" alt="Placeholder Image" width="300" height="200">
+                <p>Basic introduction to HTML including implementation of tables, images and hyperlinks. Very basic levels of formatting and stylesheets.</p>
+            </div>
+            <div class="column">
+                <h3><a href="assignments/assignment2/assign2.html">Assignment 2: Basic CSS</a></h3>
+                <img src="assignments/assignment2/images/ss.png" alt="Placeholder Image" width="300" height="200">
+                <p>Slightly more advanced than Assignment 1 and introduces topics such as padding, navigation, background images and more.</p>
+            </div>
+            <div class="column">
+                <h3><a href="assignments/assignment3/index.html">Assignment 3: Page Layout</a></h3>
+                <img src="assignments/assignment3/images/ss.png" alt="Placeholder Image" width="300" height="200">
+                <p>Utilized flex and columns to help the website maintain a good look even while windowed. Also implemented footers and an overall more clean look.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Abi Satti</span></p>
+    </footer>
 </body>
 </html>

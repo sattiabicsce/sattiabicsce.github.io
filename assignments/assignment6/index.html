@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>JavaScript, Buttons, Functions, and more</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment 6</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
 </head>
-
 <body>
-    
+    <header>
+        <h1>JavaScript, Buttons, Functions, and more</h1>
+    </header>
+    <main>
+        <section class="container">
+            <div class="column">
+                <h2>Show/Hide</h2>
+                <button id="showButton">Show</button>
+                <button id="hideButton">Hide</button>
+                <div id="imageContainer">
+                    <img id="image" src="images/smile.jpg" alt="SMILEY">
+                </div>
+            </div>
+            <div class="column">
+                <h2>Animate</h2>
+                <button id="animateButton">Dance</button>
+                <div id="animationContainer"></div>
+            </div>
+            <div class="column">
+                <h2>Input</h2>
+                <input type="text" id="productName" placeholder="Product Name">
+                <input type="text" id="userName" placeholder="Your Name">
+                <textarea id="commentInput" placeholder="Enter your comment"></textarea>
+                <label for="rating">Rating:</label>
+                <input type="number" id="rating" min="1" max="5">
+                <button id="addCommentButton">Add Comment</button>
+                <div id="commentsContainer"></div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
-
 </html>

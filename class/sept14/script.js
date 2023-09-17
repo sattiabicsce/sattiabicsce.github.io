@@ -32,4 +32,17 @@ helloFullName("Abi", "Satti");
 const myName = "Abi";
 myName = "portia"; */
 
-const myFunct = () => console.log("Hey you!");
+//const myFunct = () => console.log("Hey you!");
+
+const moveSquare = () => {
+    document.getElementsById("square")
+}
+
+const displayName = () => {
+    const firstName = document.getElementById("txt-first-name").value;
+    console.log("Hello " + firstName + "!");
+} 
+
+window.onload = () => {
+    document.getElementById("button-show-name").onclick = displayName;
+}

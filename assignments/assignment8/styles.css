@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0070d9;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.fundraising-content {
+    margin-bottom: 20px;
+}
+
+.thermometer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.man {
+    width: 200px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+
+.man-container {
+    width: 200px; /* Set the fixed width for the container */
+    overflow: hidden; /* Hide overflow to prevent the image from expanding */
+}
+
+.thermometer {
+    width: 60px;
+    height: 200px;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 20px;
+}
+
+.mercury {
+    width: 100%;
+    background-color: #ff0000;
+    position: absolute;
+    bottom: 0;
+    transition: height 0.5s ease;
+}

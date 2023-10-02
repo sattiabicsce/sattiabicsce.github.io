@@ -28,7 +28,7 @@ runningMan.addEventListener('click', function() {
 function startAnimation() {
     setInterval(() => {
         if (isWalking) {
-            currentPosition += 10; // Adjust this value based on the speed of the animation
+            currentPosition += 10;
         } else {
             currentPosition -= 1;
         }
@@ -37,11 +37,11 @@ function startAnimation() {
         runningMan.src = isWalking ? walkingImage.src : runningImage.src;
         isWalking = !isWalking;
 
-        // If the running man reaches the end, reset the position
+        // reset the position
         if (currentPosition >= 100) {
             currentPosition = -100; // Start from a position off-screen on the left side
         }
-    }, 100); // Adjust this value to control the speed of the animation
+    }, 100);
 }
 
 function increaseTemperature() {

@@ -2,7 +2,7 @@ const runningMan = document.getElementById('runningMan');
 const temperatureInput = document.getElementById('temperatureInput');
 const mercury = document.querySelector('.mercury');
 
-let currentPosition = -10; // Start from a position off-screen on the left side
+let currentPosition = -10;
 let isWalking = true;
 let isImagesLoaded = false;
 let isAnimationStarted = false;
@@ -13,7 +13,7 @@ walkingImage.src = 'images/man-walking.png';
 const runningImage = new Image();
 runningImage.src = 'images/man-running.png';
 
-// Check if both images are loaded
+// Checks if both images are loaded
 walkingImage.onload = runningImage.onload = function() {
     isImagesLoaded = true;
 };

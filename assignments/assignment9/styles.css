@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(240, 245, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    background-color: black;
+    padding: 15px;
+}
+
+.column {
+    flex: 1;
+    background-color: rgb(0, 110, 255);
+    padding: 15px;
+}
+
+/* Slideshow */
+#slideshow {
+    background: rgb(0, 102, 255);
+    width: 100%;
+    text-align: center;
+}
+
+#slideshow p {
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Rainbow */
+#draw-rainbow {
+    padding: 4px;
+    background-color: black;
+    color: rgb(0, 106, 255);
+    border-radius: 4px;
+}
+
+#draw-rainbow-container {
+    padding: 10px;
+}
+
+#rainbow-container {
+    position: relative;
+}
+
+#pot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.color-line {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+/* Media Query */
+@media (max-width: 1000px) {
+    .row {
+        flex-direction: column;
+    }
+}

@@ -1,36 +1,21 @@
 body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    background: url('background-image.jpg') no-repeat center center/cover;
 }
 
-header,
-footer {
-    background-color: #333;
-    color: white;
+.container {
     text-align: center;
-    padding: 1rem;
 }
 
-.center-box {
-    width: 300px;
-    height: 200px;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 300px;
-    padding: 20px;
-    margin-bottom: 300px;
-}
-
-.input-group {
+form {
     margin-bottom: 20px;
 }
 
-input[type="text"] {
-    width: 80%;
-    padding: 8px;
-    margin-top: 5px;
-    box-sizing: border-box;
+#confirmation {
+    font-weight: bold;
+    color: green;
 }

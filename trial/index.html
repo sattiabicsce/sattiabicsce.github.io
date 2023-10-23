@@ -1,33 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Basic HTML Page</title>
+    <title>Form Submission</title>
 </head>
-
 <body>
-    <header>
-        <h1>Header</h1>
-    </header>
-
-    <div class="center-box">
-        <div class="input-group">
+    <div class="container">
+        <h1>Submit Your Information</h1>
+        <form id="submitForm">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-        </div>
-        <div class="input-group">
+            <input type="text" id="name" name="name" required><br><br>
             <label for="email">Email:</label>
-            <input type="text" id="email" name="email">
-        </div>
-        <button type="submit">Submit</button>
+            <input type="email" id="email" name="email" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="confirmation"></div>
     </div>
 
-    <footer>
-        <p>Footer</p>
-    </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>

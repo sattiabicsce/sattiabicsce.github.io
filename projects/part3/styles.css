@@ -2,12 +2,12 @@ body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    /*background-image: url('images/outside.jpg');*/
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f0f0;
-    background-image: url('images/outside.jpg');
 }
 
 .fixed-header {
@@ -107,6 +107,10 @@ body {
     font-size: 40px; 
 }
 
+.content-center {
+    margin-top: 20px ;
+}
+
 .black-button {
     display: inline-block;
     padding: 10px 20px;
@@ -200,7 +204,6 @@ footer {
 }
 
 .footer-columns {
-    background-color: #000000;
     flex: 3;
     display: flex;
     justify-content: space-around;
@@ -213,12 +216,9 @@ footer {
     text-align: center;
     color: white;
     font-style: none;
-    background-color: black;
 }
 
 .footer-column h3 {
-    color: white;
-    background-color: #000000;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -227,6 +227,10 @@ footer {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
 }
 
 .contact-list {
@@ -281,7 +285,7 @@ footer {
 .center-box {
     width: 400px;
     height: 180px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(83, 83, 83, 0.8);
     border-radius: 10px;
     text-align: center;
     margin: 0 auto;
@@ -303,15 +307,102 @@ input[type="text"] {
     background-color: white;
 }
 
-input[type="text"],
-textarea {
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1 1 300px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-container p {
+    margin-bottom: 15px;
+}
+
+.form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
     width: 100%;
-    padding: 8px;
-    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     box-sizing: border-box;
 }
 
+.form-container button[type="submit"] {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
+.form-container button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.map-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.map-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.map-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-details {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.map-details p {
+    margin-bottom: 10px;
+}
+
+.map-details strong {
+    color: #333;
+}
 
 /* Media Query */
 @media (max-width: 768px) {

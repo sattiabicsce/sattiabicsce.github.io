@@ -311,8 +311,6 @@ textarea {
     box-sizing: border-box;
 }
 
-
-
 /* Media Query */
 @media (max-width: 768px) {
     .fixed-header header {

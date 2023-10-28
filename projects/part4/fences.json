@@ -1,0 +1,31 @@
+[
+    {
+      "type": "Wooden Fence",
+      "materials": ["Wood", "Nails", "Paint/Stain"],
+      "pricing": "$20 - $30 per linear foot",
+      "dimensions": "Standard heights: 4ft, 6ft, 8ft",
+      "description": "A classic and versatile option, wooden fences offer privacy and aesthetics. They are available in various styles and can be customized with paint or stain."
+    },
+    {
+      "type": "Vinyl Fence",
+      "materials": ["Vinyl Panels", "Metal Reinforcements", "Concrete"],
+      "pricing": "$25 - $35 per linear foot",
+      "dimensions": "Standard heights: 3ft, 4ft, 6ft",
+      "description": "Vinyl fences are low-maintenance and durable. They come in different colors and styles, mimicking the look of wood or decorative designs."
+    },
+    {
+      "type": "Chain Link Fence",
+      "materials": ["Galvanized Steel", "Chain Links", "Concrete"],
+      "pricing": "$10 - $20 per linear foot",
+      "dimensions": "Standard heights: 3ft, 4ft, 5ft, 6ft",
+      "description": "Chain link fences are affordable and provide security. They are commonly used for residential and commercial purposes due to their durability and visibility."
+    },
+    {
+      "type": "Wrought Iron Fence",
+      "materials": ["Wrought Iron", "Metal Posts", "Paint"],
+      "pricing": "$50 - $100 per linear foot",
+      "dimensions": "Customizable heights and designs",
+      "description": "Wrought iron fences offer a high-end and ornamental look. They are sturdy, long-lasting, and can be customized with decorative elements and intricate designs."
+    }
+  ]
+  

@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001ca7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.movie-card {
+    width: 80%;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #0062ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.movie-img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border: #001ca7;
+    border-radius: 10px;
+    
+}
+.movie-img:hover {
+    transform: scale(1.2);
+}
+
+.movie-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding-right: 15px;
+}
+
+.movie-details {
+    flex: 1;
+}
+
+.movie-actors {
+    font-style: italic;
+}

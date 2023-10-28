@@ -13,7 +13,7 @@
       "pricing": "$25 - $35 per linear foot",
       "dimensions": "Standard heights: 3ft, 4ft, 6ft",
       "description": "Vinyl fences are low-maintenance and durable. They come in different colors and styles, mimicking the look of wood or decorative designs.",
-      "img": "images/vinylfence.jpeg"
+      "img": "images/vinylfence.jpg"
     },
     {
       "type": "Chain Link Fence",
@@ -29,7 +29,7 @@
       "pricing": "$50 - $100 per linear foot",
       "dimensions": "Customizable heights and designs",
       "description": "Wrought iron fences offer a high-end and ornamental look. They are sturdy, long-lasting, and can be customized with decorative elements and intricate designs.",
-      "img": "images/wroughtironfence.jpeg"
+      "img": "images/wroughtironfence.jpg"
     }
   ]
   

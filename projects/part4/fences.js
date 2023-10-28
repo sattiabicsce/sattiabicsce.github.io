@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 fenceCard.classList.add("fence-card");
 
                 const img = document.createElement("img");
-                img.src = 'https://sattiabicsce.github.io/projects/part4/images/${fences.img}';
+                img.src = `https://sattiabicsce.github.io/projects/part4/${fence.img}`;
                 img.alt = fence.type;
                 img.classList.add("fence-img");
 

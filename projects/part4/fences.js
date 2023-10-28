@@ -1,9 +1,18 @@
+// JavaScript to handle hamburger menu toggle
+
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const mainNav = document.getElementById('mainNav');
+
+hamburgerMenu.addEventListener('click', () => {
+    mainNav.classList.toggle('show');
+});
+
 document.addEventListener("DOMContentLoaded", () => {
     const fenceContainer = document.getElementById("fence-container");
 
     async function fetchData() {
         try {
-            const response = await fetch("");
+            const response = await fetch("https://sattiabicsce.github.io/projects/part4/fences.json");
             const data = await response.json();
 
             data.forEach((fence) => {
@@ -11,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 fenceCard.classList.add("fence-card");
 
                 const img = document.createElement("img");
-                img.src = fence.img;
+                img.src = 'https://sattiabicsce.github.io/projects/part4/images/${fences.img}';
                 img.alt = fence.type;
                 img.classList.add("fence-img");
 

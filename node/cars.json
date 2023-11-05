@@ -1,0 +1,43 @@
+[
+    {
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": 2020,
+      "color": "Blue",
+      "features": ["GPS", "Bluetooth", "Backup Camera"],
+      "image": "images/corolla.jpeg"
+    },
+    {
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 2019,
+      "color": "Red",
+      "features": ["Leather Seats", "Navigation System", "Keyless Entry"],
+      "image": "images/mustang.jpeg"
+    },
+    {
+      "brand": "Honda",
+      "model": "Civic",
+      "year": 2021,
+      "color": "Silver",
+      "features": ["Apple CarPlay", "Lane Departure Warning", "Sunroof"],
+      "image": "images/civic.jpeg"
+    },
+    {
+      "brand": "Chevrolet",
+      "model": "Malibu",
+      "year": 2018,
+      "color": "White",
+      "features": ["Heated Seats", "Remote Start", "Blind Spot Monitoring"],
+      "image": "images/malibu.jpeg"
+    },
+    {
+      "brand": "Nissan",
+      "model": "Altima",
+      "year": 2017,
+      "color": "Black",
+      "features": ["Push Button Start", "Adaptive Cruise Control", "Rear Cross Traffic Alert"],
+      "image": "images/altima.jpeg"
+    }
+  ]
+  

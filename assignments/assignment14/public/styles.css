@@ -1,0 +1,125 @@
+:root {
+    --primary: dodgerblue;
+    --secondary: mediumseagreen;
+}
+
+/* Structure */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.recipe,
+#recipe-details-column,
+#add-edit-recipe-container {
+    width: 100%; /* Set width to 100% for stacking */
+}
+
+.recipe,
+#recipe-details-column,
+#add-edit-recipe-container {
+    padding: 15px;
+    margin: 15px;
+    background: #ffd700;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe img,
+.dialog img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto; /* Adjust margin as needed */
+    border-radius: 5px;
+}
+
+#add-link {
+    font-size: 2em;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#add-link:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+#edit-link,
+#delete-link {
+    float: none; /* Remove float for stacking */
+    margin: 10px 0; /* Add margin for separation */
+    font-size: 1.5em;
+    color: var(--secondary);
+}
+
+#edit-link:hover,
+#delete-link:hover {
+    color: #333;
+}
+
+/* Modal Dialog */
+
+#modal-background {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+
+.dialog {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* The Close Button */
+
+.close {
+    color: #888;
+    float: none; /* Remove float for stacking */
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.close:hover,
+.close:focus {
+    color: #333;
+    cursor: pointer;
+}
+
+/* Typography */
+
+#main-nav-items {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.hidden {
+    display: none;
+}
+
+.transparent {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
